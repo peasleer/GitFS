@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+
+# This script is simple, it will just update the working copy 
+# of the repository with the changes from the "incoming" branch
+
+cd ..
+env -i git pull . incoming 
+
